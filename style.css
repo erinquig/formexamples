@@ -3,7 +3,9 @@ body {
 }
 
 fieldset {
-	width: 275px;
+	width: 250px;
+	background-color: #ADFF2F;
+	
 }
 
 label {
