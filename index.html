@@ -6,23 +6,30 @@
 </head>
 <body>
 	<form action="#" method="GET">
+		<div id=first_name>
+			<label for="first_name">First Name</label>
+			<input type="text" id="first_name" name="first_name" placeholder="John" required>
+		</div>
 
-		<label for="first_name">First Name</label>
-		<input type="text" id="first_name" name="first_name" placeholder="John" required>
+		<div id="last_name">
+			<label for="last_name">Last Name</label>
+			<input type="text" id="last_name" name="last_name" placeholder="Smith" required>
+		</div>
 
-		<label for="last_name">Last Name</label>
-		<input type="text" id="last_name" name="last_name" placeholder="Smith" required>
+		<div id="email">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" placeholder="johnsmith@gmail.com">
+		</div>
 
-		<label for="email">Email</label>
-		<input type="email" id="email" name="email" placeholder="johnsmith@gmail.com">
-
-		<label for="favorite_color">Favorite Color</label>
-		<select id="favorite_color" name="favorite_color">
-			<option value="red">Red</option>
-			<option value="blue">Blue</option>
-			<option value="green">Green</option>
-			<option value="maze">Maze</option>
-		</select>
+		<div id="favorite_color">
+			<label for="favorite_color">Favorite Color</label>
+			<select id="favorite_color" name="favorite_color">
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="green">Green</option>
+				<option value="maze">Maze</option>
+			</select>
+		</div>
 
 		<button type="submit">Submit</button>
 
