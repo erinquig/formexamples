@@ -1,13 +1,37 @@
 body {
-	background-color: #DCDCDC;
+	background-color: #f1e8ca;
+	align: center;
+}
+
+h1 {
+	font-family: 'Slabo 27px', serif;
 }
 
 fieldset {
-	width: 250px;
-	background-color: #ADFF2F;
-	
+	width: 175px ;
+	background-color: #bbcbdb;
+	font-family: 'Slabo 27px', serif;
+	vertical-align: top;
+	display: inline-block;
+	box-shadow: 10px 10px 5px #745151;
+	margin-right: 12px;
+	border-radius: 10px;
 }
 
-label {
+input, label, select {
+	display: block;
+	margin-bottom: 4px;
 	font-family: 'Slabo 27px', serif;
+}
+
+button {
+	display: block;
+	margin: 10px;
+	float: right;
+	font-family: 'Slabo 27px', serif;
+	box-shadow: 5px 5px 5px #745151;
+}
+
+input, select {
+	border-radius: 2px;
 }

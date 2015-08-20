@@ -7,31 +7,49 @@
 	<link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<h1>New Patient Info</h1>
+
 	<form action="#" method="GET">
-		<fieldset id="first_name_group">
-			<label for="first_name">First Name</label>
-			<input type="text" id="first_name" name="first_name" placeholder="John" required>
-		</fieldset>
+	
+	<fieldset>
+		<h2>Owner Info</h2>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name" placeholder="John" required>
+		
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name" placeholder="Smith" required>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="johnsmith@gmail.com">
+		
+		<label for="favorite_color">Favorite Color:</label>
+		<select id="favorite_color" name="favorite_color" required>
+			<option value="red">Red</option>
+			<option value="blue">Blue</option>
+			<option value="green">Green</option>
+			<option value="maze">Maze</option>
+		</select>
 
-		<fieldset id="last_name_group">
-			<label for="last_name">Last Name</label>
-			<input type="text" id="last_name" name="last_name" placeholder="Smith" required>
-		</fieldset>
+		<button type="submit">Submit</button>
 
-		<fieldset id="email_group">
-			<label for="email">Email</label>
-			<input type="email" id="email" name="email" placeholder="johnsmith@gmail.com">
-		</fieldset>
+	</fieldset>	
+	
+	<fieldset>	
+		<h2>Pet Info</h2>
 
-		<fieldset id="favorite_color_group">
-			<label for="favorite_color">Favorite Color</label>
-			<select id="favorite_color" name="favorite_color">
-				<option value="red">Red</option>
-				<option value="blue">Blue</option>
-				<option value="green">Green</option>
-				<option value="maze">Maze</option>
-			</select>
-		</fieldset>
+		<label for="pet_name">Pets Name:</label>
+		<input type="text" id="pet_name" name="pet_name" placeholder="Drogon" required>
+
+		<label for="pet_type">Type of Pet:</label>
+		<select id="dog" name="dog" required>
+			<option value="dog">Dog</option>
+			<option value="cat">Cat</option>
+			<option value="hamster">Hamster</option>
+			<option value="dragon">Dragon</option>
+		</select>
+
+		<label for="pet_birth_date">Pet's Birthday:</label>
+		<input type="date" id="pet_birth_date" name="pet_birth_date">
 
 		<button type="submit">Submit</button>
 
